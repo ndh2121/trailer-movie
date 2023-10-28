@@ -91,7 +91,7 @@ input {
 }
 .header {
    width: 100%;
-   padding: 0px 10rem;
+   padding: 0px 10rem 0 12rem;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -106,7 +106,7 @@ input {
    transition: background-color 0.3s ease;
 }
 .logo img {
-   width: 130px;
+   width: 12rem;
 }
 
 .search input,
@@ -119,7 +119,6 @@ input {
 .search input[type="text"] {
    background-color: #757474;
    color: white;
-   border-radius: 5px;
 }
 ::-webkit-input-placeholder {
    /* Edge */
@@ -208,7 +207,7 @@ input {
 
 @media only screen and (max-width: 739px) {
    .header {
-      padding: 12px 14px;
+      padding: 0px 14px;
       position: fixed;
       background-color: #000000;
       box-shadow: rgba(30, 27, 30, 0.8) 0px 7px 29px 0px;
@@ -218,7 +217,7 @@ input {
       grid-template-columns: 1fr 1fr;
    }
    .logo img {
-      width: 15rem;
+      width: 9rem;
    }
    .search input[type="text"] {
       width: 10rem;
@@ -232,11 +231,22 @@ input {
    }
    .hero_content h1{
       font-size: 4rem;
+      line-height: 4rem;
+      letter-spacing: -1px;
+   }
+   .hero_desc {
+    font-size: 1rem;
    }
    .youtube_container{
       top: 100px;
       left: 0;
       right: 0;
+   }
+   .btn_primary {
+    font-size: 1.5rem;
+   }
+   .btn_play {
+    font-size: 2rem;
    }
    .btn_close{
       background-color: transparent;
